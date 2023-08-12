@@ -1,0 +1,35 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .input-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
